@@ -1,0 +1,117 @@
+;/*++
+;
+;Copyright (c) Dynamic Engineering.  All rights reserved.
+;
+;Module Name:
+;
+;  PmcParIo.inf
+;
+;Abstract:
+;  INF file for the PmcParIo driver.
+;
+;--*/
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=PmcParIo
+ClassGUID={1A87E0E1-7D41-4275-BF2F-49F104439678}
+Provider=%PmcParIo.Provider%
+DriverVer = 05/24/2020,9.5.25.943
+CatalogFile=PmcParIo.cat
+
+; ================= Class section =====================
+
+[ClassInstall32]
+AddReg=PmcParIoClassReg
+
+[PmcParIoClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+HKR,,DeviceCharacteristics,0x10001,0x100     ;Use same security checks on relative opens
+HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GRGWGX;;;WD)"
+
+; ================= Device Install section =====================
+
+[ControlFlags]
+; All PnP devices should be excluded from manual AddDevice Applet list
+ExcludeFromSelect=*
+
+[DestinationDirs]
+DefaultDestDir=12
+PmcParIoCopyFiles=12 ; WINDOWS\SYSTEM32\DRIVERS
+CoInstaller_CopyFiles = 11
+
+[SourceDisksNames]
+1=%DriverDiskName%,"",,
+
+[SourceDisksFiles]
+PmcParIo.sys=1
+;
+
+
+[Manufacturer]
+%PmcParIo.Manufacturer%=PmcParIo,NTamd64
+
+; For XP and later
+[PmcParIo.NTamd64]
+; DisplayName         Section          DeviceId
+; -----------         -------          --------
+%PmcParIo.DEVDESC%    = PmcParIo_Inst,     PCI\VEN_10B5&DEV_9050
+
+[PmcParIo_Inst.NT]
+CopyFiles=PmcParIo.CopyFiles
+AddReg=PmcParIoAddReg
+
+[PmcParIo.CopyFiles]
+PmcParIo.sys
+
+[PmcParIo_Inst.NT.Services]
+AddService=PmcParIo,0x00000002,PmcParIo_Service
+
+[PmcParIo_Service]
+DisplayName    = %PmcParIo.SVCDESC%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\PmcParIo.sys
+
+; ==============================================================
+
+[PmcParIoAddReg]
+
+[PmcParIo_Inst.NT.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+[CoInstaller_CopyFiles]
+;
+
+
+[CoInstaller_AddReg]
+;
+
+
+[PmcParIo_Inst.NT.Wdf]
+KmdfService = PmcParIo, PmcParIo_wdfsect
+
+[PmcParIo_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+PmcParIo.Provider     = "Dynamic Engineering"
+PmcParIo.Manufacturer = "Dynamic Engineering"
+ClassName                = "PmcParIo Device"
+PmcParIo.SVCDESC      = "PmcParIo PCI adapter Service"
+PmcParIo.DEVDESC      = "PmcParIo PCI adapter"
+DriverDiskName           = "PmcParIo Install Disk"
+
+
+
+
+
+
+
+
+
+
+

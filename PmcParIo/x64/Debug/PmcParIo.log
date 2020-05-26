@@ -1,0 +1,23 @@
+﻿  Building 'PmcParIo' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\PmcParIo.inf
+  Stamping [Version] section with DriverVer=05/24/2020,9.5.25.943
+  Routines.c
+  PmcParIo.vcxproj -> C:\Users\Pete\source\repos\PmcParIo\x64\Debug\PmcParIo.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Pete\source\repos\PmcParIo\x64\Debug\PmcParIo.sys
+  
+  Driver is a Universal Driver.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\Pete\source\repos\PmcParIo\x64\Debug\PmcParIo\pmcpario.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Pete\source\repos\PmcParIo\x64\Debug\PmcParIo\pmcpario.cat
+  
