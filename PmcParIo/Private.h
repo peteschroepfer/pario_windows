@@ -25,7 +25,6 @@ typedef struct _DEVICE_EXTENSION {
     PHYSICAL_ADDRESS        BaseAddress;
     // Following fields are specific to the hardware configuration
     // HW Resources
-    PUCHAR            t_base;
     PPMC_PAR_IO_REGS  Regs;          // Control/Status Register structure
     PULONG            RegsBase;      // Registers base address
     ULONG             RegsLength;    // Registers base length
@@ -54,6 +53,7 @@ typedef struct _DEVICE_EXTENSION {
     UCHAR             minr_rev;      // Xilinx minor revision
     PKEVENT           pEventObject;  // Pointer to the interrupt synchronization event object
     ULONG             DataGenCntrl;
+
 } DEVICE_EXTENSION, * PDEVICE_EXTENSION;
 
 // This will generate the function named PmcParIoGetDeviceContext to be used

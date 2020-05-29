@@ -40,6 +40,7 @@ NTSTATUS PmcParIoInterruptCreate(__in PDEVICE_EXTENSION pDevExt)
 
     InterruptConfig.EvtInterruptEnable = PmcParIoEvtInterruptEnable;
     InterruptConfig.EvtInterruptDisable = PmcParIoEvtInterruptDisable;
+    
     // Create a WDFSPINLOCK object.
     status = WdfSpinLockCreate(WDF_NO_OBJECT_ATTRIBUTES,
         &pDevExt->IntSpinLock);
@@ -196,18 +197,27 @@ NTSTATUS PmcParIoEvtInterruptEnable(__in WDFINTERRUPT Interrupt,
     reg_val = READ_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT);
 
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PETE,
-        "Plx Base val: %x",
+        "PLX INT CONFIG REG: %x",
         reg_val);    
     
 
-    pDevExt->PlxIntContStat.bits.PciIntEn = TRUE;
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT,
-        pDevExt->PlxIntContStat.val32);
+    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT, 0x49);
 
-    reg_val = READ_REGISTER_ULONG((PULONG)pDevExt->PlxRegs + PLX_INT_CONT_STAT);
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_CLK_CNTRL, 0x6);
+
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_INT_CONFIG_CNTL, 0x44);
+
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PETE,
-        "Plx Base val: %x",
-        reg_val);
+        "PLX_INT_CONT_STAT: 0x%x",
+        READ_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT));
+
+    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PETE,
+        "PAR_CLK_CNTRL: 0x%x",
+        READ_REGISTER_ULONG(pDevExt->RegsBase + PAR_CLK_CNTRL));
+
+    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PETE,
+        "PAR_INT_CONFIG_CNTL: 0x%x",
+        READ_REGISTER_ULONG(pDevExt->RegsBase + PAR_INT_CONFIG_CNTL));
 
     return STATUS_SUCCESS;
 }// PmcParIoEvtInterruptEnable

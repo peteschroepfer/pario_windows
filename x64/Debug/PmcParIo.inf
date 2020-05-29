@@ -16,7 +16,7 @@ Signature="$WINDOWS NT$"
 Class=PmcParIo
 ClassGUID={1A87E0E1-7D41-4275-BF2F-49F104439678}
 Provider=%PmcParIo.Provider%
-DriverVer = 05/24/2020,9.5.25.943
+DriverVer = 05/28/2020,21.25.13.568
 CatalogFile=PmcParIo.cat
 
 ; ================= Class section =====================

@@ -1,4 +1,4 @@
-// 14fe0deb33ebc8351b254fedff0bb47c Generated file. Do not edit.
+// 6c26b04492022f43284f6d31d6d1f8ea Generated file. Do not edit.
 // File created by WPP compiler version 10.0.18362
 // from template km-default.tpl
 
@@ -545,64 +545,64 @@ extern "C" {
 #define WPP_PUBLIC_ANNOT_Device_c72
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c86
+#define WPP_PUBLIC_ANNOT_Device_c87
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c120
+#define WPP_PUBLIC_ANNOT_Device_c121
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c143
+#define WPP_PUBLIC_ANNOT_Device_c147
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c152
+#define WPP_PUBLIC_ANNOT_Device_c157
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c163
+#define WPP_PUBLIC_ANNOT_Device_c168
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c183
+#define WPP_PUBLIC_ANNOT_Device_c184
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c213
+#define WPP_PUBLIC_ANNOT_Device_c214
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c220
+#define WPP_PUBLIC_ANNOT_Device_c221
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c246
+#define WPP_PUBLIC_ANNOT_Device_c247
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c253
+#define WPP_PUBLIC_ANNOT_Device_c254
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c284
+#define WPP_PUBLIC_ANNOT_Device_c285
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c286
+#define WPP_PUBLIC_ANNOT_Device_c287
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c313
+#define WPP_PUBLIC_ANNOT_Device_c314
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c333
+#define WPP_PUBLIC_ANNOT_Device_c334
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c349
+#define WPP_PUBLIC_ANNOT_Device_c350
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c352
+#define WPP_PUBLIC_ANNOT_Device_c353
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c378
+#define WPP_PUBLIC_ANNOT_Device_c379
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c387
+#define WPP_PUBLIC_ANNOT_Device_c394
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c395
+#define WPP_PUBLIC_ANNOT_Device_c401
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Device_c399
+#define WPP_PUBLIC_ANNOT_Device_c404
 #endif
 #ifdef WPP_EMIT_FUNC_NAME
 #define WPP_FUNC_NAME L" FUNC=" _WPPW(__FUNCTION__)
@@ -622,7 +622,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Device_c68_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 10 \"%0PmcParIo - Driver Framework Edition.\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT" \
@@ -662,7 +662,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Device_c70_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 11 \"%0Built %10!s! %11!s!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT" \
@@ -706,7 +706,7 @@ extern "C" {
 #else // WPP_USER_MSG_GUID
 # define WPP_ANNOTATE_Device_c72_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 12 \"%0PmcParIo Registry Path: %10!s!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT" \
@@ -737,7 +737,7 @@ extern "C" {
 #endif // WPP_PUBLIC_ANNOT_Device_c72
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c86_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c87_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -746,9 +746,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c86_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c87_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 13 \"%0WdfDriverCreate failed with status %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
@@ -756,8 +756,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c86
-# define WPP_ANNOTATE_Device_c86 WPP_ANNOTATE_Device_c86_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c87
+# define WPP_ANNOTATE_Device_c87 WPP_ANNOTATE_Device_c87_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -768,18 +768,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c86
-# define WPP_ANNOTATE_Device_c86 WPP_ANNOTATE_Device_c86_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c87
+# define WPP_ANNOTATE_Device_c87 WPP_ANNOTATE_Device_c87_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c86", \
+    "Device_c87", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c86
+#endif // WPP_PUBLIC_ANNOT_Device_c87
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c120_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c121_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -788,9 +788,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c120_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c121_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 14 \"%0--> PmcParIoEvtDeviceAdd\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -798,8 +798,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c120
-# define WPP_ANNOTATE_Device_c120 WPP_ANNOTATE_Device_c120_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c121
+# define WPP_ANNOTATE_Device_c121 WPP_ANNOTATE_Device_c121_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -809,17 +809,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c120
-# define WPP_ANNOTATE_Device_c120 WPP_ANNOTATE_Device_c120_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c121
+# define WPP_ANNOTATE_Device_c121 WPP_ANNOTATE_Device_c121_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c120", \
+    "Device_c121", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c120
+#endif // WPP_PUBLIC_ANNOT_Device_c121
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c143_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c147_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -828,9 +828,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c143_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c147_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 15 \"%0DeviceCreate failed %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
@@ -838,8 +838,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c143
-# define WPP_ANNOTATE_Device_c143 WPP_ANNOTATE_Device_c143_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c147
+# define WPP_ANNOTATE_Device_c147 WPP_ANNOTATE_Device_c147_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -850,18 +850,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c143
-# define WPP_ANNOTATE_Device_c143 WPP_ANNOTATE_Device_c143_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c147
+# define WPP_ANNOTATE_Device_c147 WPP_ANNOTATE_Device_c147_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c143", \
+    "Device_c147", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c143
+#endif // WPP_PUBLIC_ANNOT_Device_c147
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c152_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c157_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -870,9 +870,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c152_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c157_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 16 \"%0     AddDevice PDO (0x%10!p!) FDO (0x%11!p!), pDevExt (0x%12!p!)\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -880,8 +880,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c152
-# define WPP_ANNOTATE_Device_c152 WPP_ANNOTATE_Device_c152_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c157
+# define WPP_ANNOTATE_Device_c157 WPP_ANNOTATE_Device_c157_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -894,20 +894,20 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c152
-# define WPP_ANNOTATE_Device_c152 WPP_ANNOTATE_Device_c152_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c157
+# define WPP_ANNOTATE_Device_c157 WPP_ANNOTATE_Device_c157_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c152", \
+    "Device_c157", \
     L"{", \
     L"pDevExt->Pdo, ItemPtr -- 10" , \
     L"WdfDeviceWdmGetDeviceObject(device), ItemPtr -- 11" , \
     L"pDevExt, ItemPtr -- 12" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c152
+#endif // WPP_PUBLIC_ANNOT_Device_c157
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c163_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c168_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -916,9 +916,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c163_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c168_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 17 \"%0<-- PmcParIoEvtDeviceAdd DeviceCreateDeviceInterface failed %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
@@ -926,8 +926,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c163
-# define WPP_ANNOTATE_Device_c163 WPP_ANNOTATE_Device_c163_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c168
+# define WPP_ANNOTATE_Device_c168 WPP_ANNOTATE_Device_c168_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -938,18 +938,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c163
-# define WPP_ANNOTATE_Device_c163 WPP_ANNOTATE_Device_c163_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c168
+# define WPP_ANNOTATE_Device_c168 WPP_ANNOTATE_Device_c168_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c163", \
+    "Device_c168", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c163
+#endif // WPP_PUBLIC_ANNOT_Device_c168
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c183_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c184_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -958,9 +958,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c183_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c184_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 18 \"%0<-- PmcParIoEvtDeviceAdd %10!s!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -968,8 +968,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c183
-# define WPP_ANNOTATE_Device_c183 WPP_ANNOTATE_Device_c183_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c184
+# define WPP_ANNOTATE_Device_c184 WPP_ANNOTATE_Device_c184_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -980,18 +980,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c183
-# define WPP_ANNOTATE_Device_c183 WPP_ANNOTATE_Device_c183_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c184
+# define WPP_ANNOTATE_Device_c184 WPP_ANNOTATE_Device_c184_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c183", \
+    "Device_c184", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c183
+#endif // WPP_PUBLIC_ANNOT_Device_c184
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c213_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c214_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1000,9 +1000,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c213_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c214_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 19 \"%0--> PmcParIoEvtDevicePrepareHardware\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1010,8 +1010,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c213
-# define WPP_ANNOTATE_Device_c213 WPP_ANNOTATE_Device_c213_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c214
+# define WPP_ANNOTATE_Device_c214 WPP_ANNOTATE_Device_c214_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1021,17 +1021,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c213
-# define WPP_ANNOTATE_Device_c213 WPP_ANNOTATE_Device_c213_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c214
+# define WPP_ANNOTATE_Device_c214 WPP_ANNOTATE_Device_c214_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c213", \
+    "Device_c214", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c213
+#endif // WPP_PUBLIC_ANNOT_Device_c214
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c220_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c221_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1040,9 +1040,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c220_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c221_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 20 \"%0<-- PmcParIoEvtDevicePrepareHardware, status %10!s!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1050,8 +1050,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c220
-# define WPP_ANNOTATE_Device_c220 WPP_ANNOTATE_Device_c220_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c221
+# define WPP_ANNOTATE_Device_c221 WPP_ANNOTATE_Device_c221_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1062,18 +1062,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c220
-# define WPP_ANNOTATE_Device_c220 WPP_ANNOTATE_Device_c220_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c221
+# define WPP_ANNOTATE_Device_c221 WPP_ANNOTATE_Device_c221_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c220", \
+    "Device_c221", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c220
+#endif // WPP_PUBLIC_ANNOT_Device_c221
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c246_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c247_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1082,9 +1082,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c246_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c247_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 21 \"%0--> PmcParIoEvtDeviceReleaseHardware\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1092,8 +1092,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c246
-# define WPP_ANNOTATE_Device_c246 WPP_ANNOTATE_Device_c246_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c247
+# define WPP_ANNOTATE_Device_c247 WPP_ANNOTATE_Device_c247_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1103,17 +1103,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c246
-# define WPP_ANNOTATE_Device_c246 WPP_ANNOTATE_Device_c246_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c247
+# define WPP_ANNOTATE_Device_c247 WPP_ANNOTATE_Device_c247_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c246", \
+    "Device_c247", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c246
+#endif // WPP_PUBLIC_ANNOT_Device_c247
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c253_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c254_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1122,9 +1122,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c253_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c254_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 22 \"%0<-- PmcParIoEvtDeviceReleaseHardware\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1132,8 +1132,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c253
-# define WPP_ANNOTATE_Device_c253 WPP_ANNOTATE_Device_c253_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c254
+# define WPP_ANNOTATE_Device_c254 WPP_ANNOTATE_Device_c254_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1143,17 +1143,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c253
-# define WPP_ANNOTATE_Device_c253 WPP_ANNOTATE_Device_c253_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c254
+# define WPP_ANNOTATE_Device_c254 WPP_ANNOTATE_Device_c254_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c253", \
+    "Device_c254", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c253
+#endif // WPP_PUBLIC_ANNOT_Device_c254
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c284_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c285_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1162,9 +1162,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c284_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c285_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 23 \"%0--> PmcParIoEvtDeviceD0Entry\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1172,8 +1172,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c284
-# define WPP_ANNOTATE_Device_c284 WPP_ANNOTATE_Device_c284_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c285
+# define WPP_ANNOTATE_Device_c285 WPP_ANNOTATE_Device_c285_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1183,17 +1183,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c284
-# define WPP_ANNOTATE_Device_c284 WPP_ANNOTATE_Device_c284_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c285
+# define WPP_ANNOTATE_Device_c285 WPP_ANNOTATE_Device_c285_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c284", \
+    "Device_c285", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c284
+#endif // WPP_PUBLIC_ANNOT_Device_c285
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c286_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c287_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1202,9 +1202,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c286_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c287_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 24 \"%0<-- PmcParIoEvtDeviceD0Entry\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1212,8 +1212,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c286
-# define WPP_ANNOTATE_Device_c286 WPP_ANNOTATE_Device_c286_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c287
+# define WPP_ANNOTATE_Device_c287 WPP_ANNOTATE_Device_c287_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1223,17 +1223,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c286
-# define WPP_ANNOTATE_Device_c286 WPP_ANNOTATE_Device_c286_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c287
+# define WPP_ANNOTATE_Device_c287 WPP_ANNOTATE_Device_c287_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c286", \
+    "Device_c287", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c286
+#endif // WPP_PUBLIC_ANNOT_Device_c287
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c313_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c314_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1242,9 +1242,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c313_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c314_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 25 \"%0--> PmcParIoEvtDeviceD0Exit\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1252,8 +1252,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c313
-# define WPP_ANNOTATE_Device_c313 WPP_ANNOTATE_Device_c313_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c314
+# define WPP_ANNOTATE_Device_c314 WPP_ANNOTATE_Device_c314_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1263,17 +1263,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c313
-# define WPP_ANNOTATE_Device_c313 WPP_ANNOTATE_Device_c313_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c314
+# define WPP_ANNOTATE_Device_c314 WPP_ANNOTATE_Device_c314_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c313", \
+    "Device_c314", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c313
+#endif // WPP_PUBLIC_ANNOT_Device_c314
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c333_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c334_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1282,9 +1282,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c333_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c334_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 26 \"%0<-- PmcParIoEvtDeviceD0Exit\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1292,8 +1292,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c333
-# define WPP_ANNOTATE_Device_c333 WPP_ANNOTATE_Device_c333_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c334
+# define WPP_ANNOTATE_Device_c334 WPP_ANNOTATE_Device_c334_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1303,17 +1303,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c333
-# define WPP_ANNOTATE_Device_c333 WPP_ANNOTATE_Device_c333_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c334
+# define WPP_ANNOTATE_Device_c334 WPP_ANNOTATE_Device_c334_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c333", \
+    "Device_c334", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c333
+#endif // WPP_PUBLIC_ANNOT_Device_c334
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c349_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c350_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1322,9 +1322,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c349_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c350_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 27 \"%0--> PmcParIoEvtDriverContextCleanup: enter\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT" \
@@ -1332,8 +1332,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c349
-# define WPP_ANNOTATE_Device_c349 WPP_ANNOTATE_Device_c349_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c350
+# define WPP_ANNOTATE_Device_c350 WPP_ANNOTATE_Device_c350_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1343,17 +1343,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c349
-# define WPP_ANNOTATE_Device_c349 WPP_ANNOTATE_Device_c349_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c350
+# define WPP_ANNOTATE_Device_c350 WPP_ANNOTATE_Device_c350_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c349", \
+    "Device_c350", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c349
+#endif // WPP_PUBLIC_ANNOT_Device_c350
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c352_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c353_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1362,9 +1362,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c352_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c353_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 28 \"%0<-- PmcParIoEvtDriverContextCleanup: exit\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT" \
@@ -1372,8 +1372,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c352
-# define WPP_ANNOTATE_Device_c352 WPP_ANNOTATE_Device_c352_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c353
+# define WPP_ANNOTATE_Device_c353 WPP_ANNOTATE_Device_c353_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1383,17 +1383,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c352
-# define WPP_ANNOTATE_Device_c352 WPP_ANNOTATE_Device_c352_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c353
+# define WPP_ANNOTATE_Device_c353 WPP_ANNOTATE_Device_c353_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c352", \
+    "Device_c353", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c352
+#endif // WPP_PUBLIC_ANNOT_Device_c353
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c378_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c379_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1402,9 +1402,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c378_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c379_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 29 \"%0--> PmcParIoSetIdleAndWakeSettings\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1412,8 +1412,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c378
-# define WPP_ANNOTATE_Device_c378 WPP_ANNOTATE_Device_c378_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c379
+# define WPP_ANNOTATE_Device_c379 WPP_ANNOTATE_Device_c379_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1423,37 +1423,37 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c378
-# define WPP_ANNOTATE_Device_c378 WPP_ANNOTATE_Device_c378_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c379
+# define WPP_ANNOTATE_Device_c379 WPP_ANNOTATE_Device_c379_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c378", \
+    "Device_c379", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c378
+#endif // WPP_PUBLIC_ANNOT_Device_c379
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c387_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c394_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 30 \"%0DeviceSetPowerPolicyS0IdlePolicy failed %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
+    L" 30 \"%0WdfDeviceAssignS0IdleSettings failed %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c387_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c394_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 30 \"%0DeviceSetPowerPolicyS0IdlePolicy failed %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
+    L" 30 \"%0WdfDeviceAssignS0IdleSettings failed %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c387
-# define WPP_ANNOTATE_Device_c387 WPP_ANNOTATE_Device_c387_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c394
+# define WPP_ANNOTATE_Device_c394 WPP_ANNOTATE_Device_c394_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1464,18 +1464,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c387
-# define WPP_ANNOTATE_Device_c387 WPP_ANNOTATE_Device_c387_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c394
+# define WPP_ANNOTATE_Device_c394 WPP_ANNOTATE_Device_c394_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c387", \
+    "Device_c394", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c387
+#endif // WPP_PUBLIC_ANNOT_Device_c394
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c395_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c401_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1484,9 +1484,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c395_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c401_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 31 \"%0DeviceAssignSxWakeSettings failed %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
@@ -1494,8 +1494,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c395
-# define WPP_ANNOTATE_Device_c395 WPP_ANNOTATE_Device_c395_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c401
+# define WPP_ANNOTATE_Device_c401 WPP_ANNOTATE_Device_c401_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1506,18 +1506,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c395
-# define WPP_ANNOTATE_Device_c395 WPP_ANNOTATE_Device_c395_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c401
+# define WPP_ANNOTATE_Device_c401 WPP_ANNOTATE_Device_c401_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c395", \
+    "Device_c401", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c395
+#endif // WPP_PUBLIC_ANNOT_Device_c401
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c399_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c404_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1526,9 +1526,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Device_c399_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Device_c404_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"e39d7111-bc77-32da-6265-da899b71b646 PmcParIo // SRC=" _WPPW(File) \
+    L"68d36e6b-fd5b-3851-ebc9-bb69f463205e PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 32 \"%0<-- PmcParIoSetIdleAndWakeSettings\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP" \
@@ -1536,8 +1536,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Device_c399
-# define WPP_ANNOTATE_Device_c399 WPP_ANNOTATE_Device_c399_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Device_c404
+# define WPP_ANNOTATE_Device_c404 WPP_ANNOTATE_Device_c404_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1547,14 +1547,14 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Device_c399
-# define WPP_ANNOTATE_Device_c399 WPP_ANNOTATE_Device_c399_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Device_c404
+# define WPP_ANNOTATE_Device_c404 WPP_ANNOTATE_Device_c404_FINAL( \
     "TMF:", \
     "Device.c", \
-    "Device_c399", \
+    "Device_c404", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Device_c399
+#endif // WPP_PUBLIC_ANNOT_Device_c404
 
 # define WPP_ANNOTATE(x) WPP_ANNOTATE_ ## x,
 
@@ -1572,8 +1572,8 @@ WPP_LOCAL_MSG_GUID(WPP_USER_MSG_GUID);
 
 #else // WPP_USER_MSG_GUID
 
-#define WPP_LOCAL_TraceGuids WPP_e39d7111bc7732da6265da899b71b646_Traceguids
-extern const __declspec(selectany) GUID WPP_LOCAL_TraceGuids[] = { {0xe39d7111,0xbc77,0x32da,{0x62,0x65,0xda,0x89,0x9b,0x71,0xb6,0x46}}, };
+#define WPP_LOCAL_TraceGuids WPP_68d36e6bfd5b3851ebc9bb69f463205e_Traceguids
+extern const __declspec(selectany) GUID WPP_LOCAL_TraceGuids[] = { {0x68d36e6b,0xfd5b,0x3851,{0xeb,0xc9,0xbb,0x69,0xf4,0x63,0x20,0x5e}}, };
 
 #endif // WPP_USER_MSG_GUID
 
@@ -2341,7 +2341,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c86
+// WPP_CALL_Device_c87
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2350,11 +2350,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c86(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c87(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c86) 0; \
+        WPP_ANNOTATE(Device_c87) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2370,10 +2370,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c86(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c87(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c86) \
+    WPP_ANNOTATE(Device_c87) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2387,10 +2387,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c86(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c87(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c86) \
+    WPP_ANNOTATE(Device_c87) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2404,7 +2404,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c120
+// WPP_CALL_Device_c121
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2413,11 +2413,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c120(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c121(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c120) 0; \
+        WPP_ANNOTATE(Device_c121) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2433,10 +2433,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c120(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c121(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c120) \
+    WPP_ANNOTATE(Device_c121) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2450,10 +2450,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c120(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c121(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c120) \
+    WPP_ANNOTATE(Device_c121) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2467,7 +2467,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c143
+// WPP_CALL_Device_c147
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2476,11 +2476,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c143(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c147(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c143) 0; \
+        WPP_ANNOTATE(Device_c147) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2496,10 +2496,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c143(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c147(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c143) \
+    WPP_ANNOTATE(Device_c147) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2513,10 +2513,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c143(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c147(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c143) \
+    WPP_ANNOTATE(Device_c147) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2530,7 +2530,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c152
+// WPP_CALL_Device_c157
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2539,11 +2539,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c152(LEVEL, FLAGS, MSG, a10, a11, a12) \
+#define WPP_CALL_Device_c157(LEVEL, FLAGS, MSG, a10, a11, a12) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c152) 0; \
+        WPP_ANNOTATE(Device_c157) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2559,10 +2559,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c152(LEVEL, FLAGS, MSG, a10, a11, a12) \
+#define WPP_CALL_Device_c157(LEVEL, FLAGS, MSG, a10, a11, a12) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c152) \
+    WPP_ANNOTATE(Device_c157) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11, a12)), \
@@ -2576,10 +2576,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c152(LEVEL, FLAGS, MSG, a10, a11, a12) \
+#define WPP_CALL_Device_c157(LEVEL, FLAGS, MSG, a10, a11, a12) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c152) \
+    WPP_ANNOTATE(Device_c157) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11, a12)), \
@@ -2593,7 +2593,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c163
+// WPP_CALL_Device_c168
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2602,11 +2602,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c163(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c168(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c163) 0; \
+        WPP_ANNOTATE(Device_c168) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2622,10 +2622,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c163(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c168(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c163) \
+    WPP_ANNOTATE(Device_c168) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2639,10 +2639,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c163(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c168(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c163) \
+    WPP_ANNOTATE(Device_c168) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2656,7 +2656,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c183
+// WPP_CALL_Device_c184
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2665,11 +2665,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c183(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c184(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c183) 0; \
+        WPP_ANNOTATE(Device_c184) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2685,10 +2685,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c183(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c184(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c183) \
+    WPP_ANNOTATE(Device_c184) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2702,10 +2702,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c183(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c184(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c183) \
+    WPP_ANNOTATE(Device_c184) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2719,7 +2719,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c213
+// WPP_CALL_Device_c214
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2728,11 +2728,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c213(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c214(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c213) 0; \
+        WPP_ANNOTATE(Device_c214) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2748,10 +2748,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c213(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c214(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c213) \
+    WPP_ANNOTATE(Device_c214) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2765,10 +2765,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c213(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c214(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c213) \
+    WPP_ANNOTATE(Device_c214) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2782,7 +2782,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c220
+// WPP_CALL_Device_c221
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2791,11 +2791,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c220(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c221(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c220) 0; \
+        WPP_ANNOTATE(Device_c221) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2811,10 +2811,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c220(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c221(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c220) \
+    WPP_ANNOTATE(Device_c221) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2828,10 +2828,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c220(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c221(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c220) \
+    WPP_ANNOTATE(Device_c221) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2845,7 +2845,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c246
+// WPP_CALL_Device_c247
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2854,11 +2854,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c246(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c247(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c246) 0; \
+        WPP_ANNOTATE(Device_c247) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2874,10 +2874,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c246(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c247(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c246) \
+    WPP_ANNOTATE(Device_c247) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2891,10 +2891,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c246(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c247(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c246) \
+    WPP_ANNOTATE(Device_c247) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2908,7 +2908,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c253
+// WPP_CALL_Device_c254
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2917,11 +2917,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c253(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c254(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c253) 0; \
+        WPP_ANNOTATE(Device_c254) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2937,10 +2937,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c253(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c254(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c253) \
+    WPP_ANNOTATE(Device_c254) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2954,10 +2954,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c253(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c254(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c253) \
+    WPP_ANNOTATE(Device_c254) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2971,7 +2971,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c284
+// WPP_CALL_Device_c285
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2980,11 +2980,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c284(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c285(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c284) 0; \
+        WPP_ANNOTATE(Device_c285) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3000,10 +3000,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c284(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c285(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c284) \
+    WPP_ANNOTATE(Device_c285) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3017,10 +3017,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c284(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c285(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c284) \
+    WPP_ANNOTATE(Device_c285) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3034,7 +3034,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c286
+// WPP_CALL_Device_c287
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3043,11 +3043,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c286(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c287(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c286) 0; \
+        WPP_ANNOTATE(Device_c287) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3063,10 +3063,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c286(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c287(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c286) \
+    WPP_ANNOTATE(Device_c287) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3080,10 +3080,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c286(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c287(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c286) \
+    WPP_ANNOTATE(Device_c287) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3097,7 +3097,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c313
+// WPP_CALL_Device_c314
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3106,11 +3106,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c313(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c314(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c313) 0; \
+        WPP_ANNOTATE(Device_c314) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3126,10 +3126,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c313(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c314(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c313) \
+    WPP_ANNOTATE(Device_c314) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3143,10 +3143,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c313(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c314(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c313) \
+    WPP_ANNOTATE(Device_c314) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3160,7 +3160,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c333
+// WPP_CALL_Device_c334
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3169,11 +3169,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c333(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c334(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c333) 0; \
+        WPP_ANNOTATE(Device_c334) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3189,10 +3189,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c333(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c334(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c333) \
+    WPP_ANNOTATE(Device_c334) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3206,10 +3206,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c333(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c334(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c333) \
+    WPP_ANNOTATE(Device_c334) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3223,7 +3223,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c349
+// WPP_CALL_Device_c350
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3232,11 +3232,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c349(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c350(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c349) 0; \
+        WPP_ANNOTATE(Device_c350) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3252,10 +3252,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c349(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c350(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c349) \
+    WPP_ANNOTATE(Device_c350) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3269,10 +3269,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c349(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c350(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c349) \
+    WPP_ANNOTATE(Device_c350) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3286,7 +3286,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c352
+// WPP_CALL_Device_c353
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3295,11 +3295,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c352(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c353(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c352) 0; \
+        WPP_ANNOTATE(Device_c353) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3315,10 +3315,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c352(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c353(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c352) \
+    WPP_ANNOTATE(Device_c353) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3332,10 +3332,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c352(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c353(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c352) \
+    WPP_ANNOTATE(Device_c353) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3349,7 +3349,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c378
+// WPP_CALL_Device_c379
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3358,11 +3358,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c378(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c379(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c378) 0; \
+        WPP_ANNOTATE(Device_c379) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3378,10 +3378,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c378(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c379(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c378) \
+    WPP_ANNOTATE(Device_c379) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3395,10 +3395,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c378(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c379(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c378) \
+    WPP_ANNOTATE(Device_c379) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3412,7 +3412,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c387
+// WPP_CALL_Device_c394
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3421,11 +3421,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c387(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c394(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c387) 0; \
+        WPP_ANNOTATE(Device_c394) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3441,10 +3441,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c387(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c394(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c387) \
+    WPP_ANNOTATE(Device_c394) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -3458,10 +3458,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c387(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c394(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c387) \
+    WPP_ANNOTATE(Device_c394) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -3475,7 +3475,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c395
+// WPP_CALL_Device_c401
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3484,11 +3484,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c395(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c401(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c395) 0; \
+        WPP_ANNOTATE(Device_c401) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3504,10 +3504,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c395(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c401(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c395) \
+    WPP_ANNOTATE(Device_c401) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -3521,10 +3521,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c395(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Device_c401(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c395) \
+    WPP_ANNOTATE(Device_c401) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -3538,7 +3538,7 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Device_c399
+// WPP_CALL_Device_c404
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -3547,11 +3547,11 @@ WPP_RECORDER_SF_ss(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c399(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c404(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Device_c399) 0; \
+        WPP_ANNOTATE(Device_c404) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -3567,10 +3567,10 @@ WPP_RECORDER_SF_ss(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Device_c399(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c404(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c399) \
+    WPP_ANNOTATE(Device_c404) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -3584,10 +3584,10 @@ WPP_RECORDER_SF_ss(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Device_c399(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_Device_c404(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Device_c399) \
+    WPP_ANNOTATE(Device_c404) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \

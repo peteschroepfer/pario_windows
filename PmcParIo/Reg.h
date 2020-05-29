@@ -42,6 +42,7 @@
 #define PAR_IO_DATA_IN_1    5 //0x00C
 #define PAR_CLK_CNTRL       8 //0x020
 #define PAR_INT_CONFIG_CNTL 9 //0x024
+#define PAR_ID              12 //0x30
 
   /*****************************************************************************
    * Define the base control interface (CLK_CNTRL)

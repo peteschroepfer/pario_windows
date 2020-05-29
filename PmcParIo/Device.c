@@ -82,6 +82,7 @@ NTSTATUS DriverEntry(__in PDRIVER_OBJECT  DriverObject,
         &attributes,
         &config,
         WDF_NO_HANDLE);
+
     if (!NT_SUCCESS(status)) {
         TraceEvents(TRACE_LEVEL_ERROR, DBG_PNP,
             "WdfDriverCreate failed with status %!STATUS!", status);
@@ -119,18 +120,21 @@ NTSTATUS PmcParIoEvtDeviceAdd(__in    WDFDRIVER       Driver,
     UNREFERENCED_PARAMETER(Driver);
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "--> PmcParIoEvtDeviceAdd");
     PAGED_CODE();
+
     WdfDeviceInitSetIoType(DeviceInit, WdfDeviceIoDirect);
     // Zero out the PnpPowerCallbacks structure.
+   
+    
     WDF_PNPPOWER_EVENT_CALLBACKS_INIT(&pnpPowerCallbacks);
     // Set Callbacks for any of the functions we are interested in.
     pnpPowerCallbacks.EvtDevicePrepareHardware = PmcParIoEvtDevicePrepareHardware;
     pnpPowerCallbacks.EvtDeviceReleaseHardware = PmcParIoEvtDeviceReleaseHardware;
-    // These two callbacks set up and tear down hardware state when the device
-    //  enters and exits the D0 state.
     pnpPowerCallbacks.EvtDeviceD0Entry = PmcParIoEvtDeviceD0Entry;
     pnpPowerCallbacks.EvtDeviceD0Exit = PmcParIoEvtDeviceD0Exit;
     // Register the PnP Callbacks..
     WdfDeviceInitSetPnpPowerEventCallbacks(DeviceInit, &pnpPowerCallbacks);
+    
+    
     // Initialize Fdo Attributes.
     WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&fdoAttributes, DEVICE_EXTENSION);
     // Framework will serialize access to device-context by Io Events and
@@ -148,6 +152,7 @@ NTSTATUS PmcParIoEvtDeviceAdd(__in    WDFDRIVER       Driver,
     //  function defined by WDF_DECLARE_CONTEXT_TYPE_WITH_NAME macro
     pDevExt = PmcParIoGetDeviceContext(device);
     pDevExt->Device = device;
+
     pDevExt->Pdo = WdfDeviceWdmGetPhysicalDevice(device);
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP,
         "     AddDevice PDO (0x%p) FDO (0x%p), pDevExt (0x%p)",
@@ -165,16 +170,12 @@ NTSTATUS PmcParIoEvtDeviceAdd(__in    WDFDRIVER       Driver,
             status);
         return status;
     }
+
+    // we don't care if this fails because device will just stay in higher power state
     // Set the idle and wait-wake policy for this device.
-    status = PmcParIoSetIdleAndWakeSettings(pDevExt);
-    if (!NT_SUCCESS(status)) {
-        // The attempt to set the Idle and Wake options is a best-effort try.
-#if 1
-        status = STATUS_SUCCESS;
-#else
-        return status;
-#endif
-    }
+    PmcParIoSetIdleAndWakeSettings(pDevExt);
+    status = STATUS_SUCCESS;
+
     // Initalize the Device Extension.
     status = PmcParIoInitializeDeviceExtension(pDevExt);
     if (!NT_SUCCESS(status)) {
@@ -378,15 +379,20 @@ NTSTATUS PmcParIoSetIdleAndWakeSettings(__in PDEVICE_EXTENSION FdoData)
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP,
         "--> PmcParIoSetIdleAndWakeSettings");
     // Init the idle policy structure.
-    WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(&idleSettings, IdleCanWakeFromS0);
-    idleSettings.IdleTimeout = 10000; // 10-sec
- //   idleSettings.UserControlOfIdleSettings = IdleDoNotAllowUserControl;
- //   idleSettings.Enabled = WdfFalse;
-    status = WdfDeviceAssignS0IdleSettings(FdoData->Device, &idleSettings);
+
+    WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(
+        &idleSettings,
+        IdleCanWakeFromS0
+    );
+    idleSettings.IdleTimeout = 10000;
+
+    status = WdfDeviceAssignS0IdleSettings(
+        FdoData->Device,
+        &idleSettings
+    );
     if (!NT_SUCCESS(status)) {
         TraceEvents(TRACE_LEVEL_ERROR, DBG_PNP,
-            "DeviceSetPowerPolicyS0IdlePolicy failed %!STATUS!", status);
-        return status;
+            "WdfDeviceAssignS0IdleSettings failed %!STATUS!", status);
     }
     // Init wait-wake policy structure.
     WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT(&wakeSettings);
@@ -394,9 +400,11 @@ NTSTATUS PmcParIoSetIdleAndWakeSettings(__in PDEVICE_EXTENSION FdoData)
     if (!NT_SUCCESS(status)) {
         TraceEvents(TRACE_LEVEL_ERROR, DBG_PNP,
             "DeviceAssignSxWakeSettings failed %!STATUS!", status);
-        return status;
     }
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP,
         "<-- PmcParIoSetIdleAndWakeSettings");
-    return status;
+    return STATUS_SUCCESS;
 }// PmcParIoSetIdleAndWakeSettings
+
+
+

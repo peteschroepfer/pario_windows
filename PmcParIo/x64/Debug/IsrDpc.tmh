@@ -1,4 +1,4 @@
-// 742cb7e7c8bd2bde1cfb74f2b3a1815a Generated file. Do not edit.
+// 5b22f02193e885de6377093830cc03b5 Generated file. Do not edit.
 // File created by WPP compiler version 10.0.18362
 // from template km-default.tpl
 
@@ -536,52 +536,58 @@ extern "C" {
 #else // WPP_NO_ANNOTATIONS
 
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c47
+#define WPP_PUBLIC_ANNOT_IsrDpc_c48
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c62
+#define WPP_PUBLIC_ANNOT_IsrDpc_c63
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c95
+#define WPP_PUBLIC_ANNOT_IsrDpc_c96
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c103
+#define WPP_PUBLIC_ANNOT_IsrDpc_c104
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c108
+#define WPP_PUBLIC_ANNOT_IsrDpc_c109
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c113
+#define WPP_PUBLIC_ANNOT_IsrDpc_c114
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c118
+#define WPP_PUBLIC_ANNOT_IsrDpc_c119
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c127
+#define WPP_PUBLIC_ANNOT_IsrDpc_c128
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c131
+#define WPP_PUBLIC_ANNOT_IsrDpc_c132
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c134
+#define WPP_PUBLIC_ANNOT_IsrDpc_c135
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c158
+#define WPP_PUBLIC_ANNOT_IsrDpc_c159
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c171
+#define WPP_PUBLIC_ANNOT_IsrDpc_c172
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c190
+#define WPP_PUBLIC_ANNOT_IsrDpc_c191
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c198
+#define WPP_PUBLIC_ANNOT_IsrDpc_c199
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c208
+#define WPP_PUBLIC_ANNOT_IsrDpc_c210
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_IsrDpc_c228
+#define WPP_PUBLIC_ANNOT_IsrDpc_c214
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_IsrDpc_c218
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_IsrDpc_c238
 #endif
 #ifdef WPP_EMIT_FUNC_NAME
 #define WPP_FUNC_NAME L" FUNC=" _WPPW(__FUNCTION__)
@@ -590,7 +596,7 @@ extern "C" {
 #endif // WPP_EMIT_FUNC_NAME
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c47_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c48_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -599,9 +605,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c47_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c48_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 10 \"%0PmcParIoInterruptCreate failed to create spinlock: %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
@@ -609,8 +615,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c47
-# define WPP_ANNOTATE_IsrDpc_c47 WPP_ANNOTATE_IsrDpc_c47_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c48
+# define WPP_ANNOTATE_IsrDpc_c48 WPP_ANNOTATE_IsrDpc_c48_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -621,18 +627,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c47
-# define WPP_ANNOTATE_IsrDpc_c47 WPP_ANNOTATE_IsrDpc_c47_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c48
+# define WPP_ANNOTATE_IsrDpc_c48 WPP_ANNOTATE_IsrDpc_c48_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c47", \
+    "IsrDpc_c48", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c47
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c48
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c62_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c63_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -641,9 +647,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c62_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c63_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 11 \"%0PmcParIoInterruptCreate failed: %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP" \
@@ -651,8 +657,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c62
-# define WPP_ANNOTATE_IsrDpc_c62 WPP_ANNOTATE_IsrDpc_c62_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c63
+# define WPP_ANNOTATE_IsrDpc_c63 WPP_ANNOTATE_IsrDpc_c63_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -663,18 +669,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c62
-# define WPP_ANNOTATE_IsrDpc_c62 WPP_ANNOTATE_IsrDpc_c62_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c63
+# define WPP_ANNOTATE_IsrDpc_c63 WPP_ANNOTATE_IsrDpc_c63_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c62", \
+    "IsrDpc_c63", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c62
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c63
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c95_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c96_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -683,9 +689,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c95_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c96_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 12 \"%0--> PmcParIoInterruptHandler\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
@@ -693,8 +699,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c95
-# define WPP_ANNOTATE_IsrDpc_c95 WPP_ANNOTATE_IsrDpc_c95_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c96
+# define WPP_ANNOTATE_IsrDpc_c96 WPP_ANNOTATE_IsrDpc_c96_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -704,17 +710,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c95
-# define WPP_ANNOTATE_IsrDpc_c95 WPP_ANNOTATE_IsrDpc_c95_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c96
+# define WPP_ANNOTATE_IsrDpc_c96 WPP_ANNOTATE_IsrDpc_c96_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c95", \
+    "IsrDpc_c96", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c95
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c96
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c103_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c104_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -723,9 +729,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c103_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c104_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 13 \"%0 User interrupt stat %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
@@ -733,8 +739,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c103
-# define WPP_ANNOTATE_IsrDpc_c103 WPP_ANNOTATE_IsrDpc_c103_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c104
+# define WPP_ANNOTATE_IsrDpc_c104 WPP_ANNOTATE_IsrDpc_c104_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -745,18 +751,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c103
-# define WPP_ANNOTATE_IsrDpc_c103 WPP_ANNOTATE_IsrDpc_c103_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c104
+# define WPP_ANNOTATE_IsrDpc_c104 WPP_ANNOTATE_IsrDpc_c104_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c103", \
+    "IsrDpc_c104", \
     L"{", \
     L"PlxIntReg.val32, ItemLong -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c103
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c104
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c108_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c109_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -765,9 +771,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c108_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c109_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 14 \"%0Uint IsrStat:0x%10!08x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
@@ -775,8 +781,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c108
-# define WPP_ANNOTATE_IsrDpc_c108 WPP_ANNOTATE_IsrDpc_c108_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c109
+# define WPP_ANNOTATE_IsrDpc_c109 WPP_ANNOTATE_IsrDpc_c109_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -787,18 +793,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c108
-# define WPP_ANNOTATE_IsrDpc_c108 WPP_ANNOTATE_IsrDpc_c108_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c109
+# define WPP_ANNOTATE_IsrDpc_c109 WPP_ANNOTATE_IsrDpc_c109_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c108", \
+    "IsrDpc_c109", \
     L"{", \
     L"pDevExt->IsrStatus.val32, ItemLong -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c108
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c109
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c113_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c114_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -807,9 +813,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c113_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c114_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 15 \"%0 User interrupt stat %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
@@ -817,8 +823,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c113
-# define WPP_ANNOTATE_IsrDpc_c113 WPP_ANNOTATE_IsrDpc_c113_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c114
+# define WPP_ANNOTATE_IsrDpc_c114 WPP_ANNOTATE_IsrDpc_c114_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -829,18 +835,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c113
-# define WPP_ANNOTATE_IsrDpc_c113 WPP_ANNOTATE_IsrDpc_c113_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c114
+# define WPP_ANNOTATE_IsrDpc_c114 WPP_ANNOTATE_IsrDpc_c114_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c113", \
+    "IsrDpc_c114", \
     L"{", \
     L"PlxIntReg.val32, ItemLong -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c113
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c114
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c118_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c119_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -849,9 +855,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c118_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c119_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 16 \"%0Uint IsrStat:0x%10!08x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
@@ -859,8 +865,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c118
-# define WPP_ANNOTATE_IsrDpc_c118 WPP_ANNOTATE_IsrDpc_c118_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c119
+# define WPP_ANNOTATE_IsrDpc_c119 WPP_ANNOTATE_IsrDpc_c119_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -871,18 +877,18 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c118
-# define WPP_ANNOTATE_IsrDpc_c118 WPP_ANNOTATE_IsrDpc_c118_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c119
+# define WPP_ANNOTATE_IsrDpc_c119 WPP_ANNOTATE_IsrDpc_c119_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c118", \
+    "IsrDpc_c119", \
     L"{", \
     L"pDevExt->IsrStatus.val32, ItemLong -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c118
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c119
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c127_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c128_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -891,9 +897,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c127_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c128_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 17 \"%0DPC enqueue failed!\" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_INTERRUPT" \
@@ -901,8 +907,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c127
-# define WPP_ANNOTATE_IsrDpc_c127 WPP_ANNOTATE_IsrDpc_c127_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c128
+# define WPP_ANNOTATE_IsrDpc_c128 WPP_ANNOTATE_IsrDpc_c128_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -912,17 +918,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c127
-# define WPP_ANNOTATE_IsrDpc_c127 WPP_ANNOTATE_IsrDpc_c127_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c128
+# define WPP_ANNOTATE_IsrDpc_c128 WPP_ANNOTATE_IsrDpc_c128_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c127", \
+    "IsrDpc_c128", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c127
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c128
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c131_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c132_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -931,9 +937,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c131_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c132_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 18 \"%0 User interrupt\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
@@ -941,8 +947,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c131
-# define WPP_ANNOTATE_IsrDpc_c131 WPP_ANNOTATE_IsrDpc_c131_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c132
+# define WPP_ANNOTATE_IsrDpc_c132 WPP_ANNOTATE_IsrDpc_c132_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -952,17 +958,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c131
-# define WPP_ANNOTATE_IsrDpc_c131 WPP_ANNOTATE_IsrDpc_c131_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c132
+# define WPP_ANNOTATE_IsrDpc_c132 WPP_ANNOTATE_IsrDpc_c132_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c131", \
+    "IsrDpc_c132", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c131
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c132
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c134_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c135_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -971,9 +977,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c134_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c135_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 19 \"%0<-- PmcParIoInterruptHandler\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
@@ -981,8 +987,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c134
-# define WPP_ANNOTATE_IsrDpc_c134 WPP_ANNOTATE_IsrDpc_c134_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c135
+# define WPP_ANNOTATE_IsrDpc_c135 WPP_ANNOTATE_IsrDpc_c135_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -992,17 +998,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c134
-# define WPP_ANNOTATE_IsrDpc_c134 WPP_ANNOTATE_IsrDpc_c134_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c135
+# define WPP_ANNOTATE_IsrDpc_c135 WPP_ANNOTATE_IsrDpc_c135_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c134", \
+    "IsrDpc_c135", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c134
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c135
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c158_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c159_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1011,9 +1017,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c158_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c159_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 20 \"%0--> EvtInterruptDpc\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DPC" \
@@ -1021,8 +1027,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c158
-# define WPP_ANNOTATE_IsrDpc_c158 WPP_ANNOTATE_IsrDpc_c158_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c159
+# define WPP_ANNOTATE_IsrDpc_c159 WPP_ANNOTATE_IsrDpc_c159_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1032,17 +1038,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c158
-# define WPP_ANNOTATE_IsrDpc_c158 WPP_ANNOTATE_IsrDpc_c158_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c159
+# define WPP_ANNOTATE_IsrDpc_c159 WPP_ANNOTATE_IsrDpc_c159_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c158", \
+    "IsrDpc_c159", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c158
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c159
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c171_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c172_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1051,9 +1057,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c171_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c172_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 21 \"%0<-- EvtInterruptDpc\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DPC" \
@@ -1061,8 +1067,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c171
-# define WPP_ANNOTATE_IsrDpc_c171 WPP_ANNOTATE_IsrDpc_c171_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c172
+# define WPP_ANNOTATE_IsrDpc_c172 WPP_ANNOTATE_IsrDpc_c172_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1072,17 +1078,17 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c171
-# define WPP_ANNOTATE_IsrDpc_c171 WPP_ANNOTATE_IsrDpc_c171_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c172
+# define WPP_ANNOTATE_IsrDpc_c172 WPP_ANNOTATE_IsrDpc_c172_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c171", \
+    "IsrDpc_c172", \
     L"{", \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c171
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c172
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c190_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c191_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -1091,9 +1097,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c190_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c191_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 22 \"%0PmcParIoEvtInterruptEnable: Interrupt 0x%10!p!, Device 0x%11!p!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
@@ -1101,8 +1107,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c190
-# define WPP_ANNOTATE_IsrDpc_c190 WPP_ANNOTATE_IsrDpc_c190_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c191
+# define WPP_ANNOTATE_IsrDpc_c191 WPP_ANNOTATE_IsrDpc_c191_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1114,39 +1120,39 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c190
-# define WPP_ANNOTATE_IsrDpc_c190 WPP_ANNOTATE_IsrDpc_c190_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c191
+# define WPP_ANNOTATE_IsrDpc_c191 WPP_ANNOTATE_IsrDpc_c191_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c190", \
+    "IsrDpc_c191", \
     L"{", \
     L"Interrupt, ItemPtr -- 10" , \
     L"Device, ItemPtr -- 11" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c190
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c191
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c198_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c199_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 23 \"%0Plx Base val: %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
+    L" 23 \"%0PLX INT CONFIG REG: %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c198_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c199_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 23 \"%0Plx Base val: %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
+    L" 23 \"%0PLX INT CONFIG REG: %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c198
-# define WPP_ANNOTATE_IsrDpc_c198 WPP_ANNOTATE_IsrDpc_c198_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c199
+# define WPP_ANNOTATE_IsrDpc_c199 WPP_ANNOTATE_IsrDpc_c199_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1157,38 +1163,38 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c198
-# define WPP_ANNOTATE_IsrDpc_c198 WPP_ANNOTATE_IsrDpc_c198_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c199
+# define WPP_ANNOTATE_IsrDpc_c199 WPP_ANNOTATE_IsrDpc_c199_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c198", \
+    "IsrDpc_c199", \
     L"{", \
     L"reg_val, ItemLong -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c198
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c199
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c208_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c210_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 24 \"%0Plx Base val: %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
+    L" 24 \"%0PLX_INT_CONT_STAT: 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c208_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c210_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 24 \"%0Plx Base val: %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
+    L" 24 \"%0PLX_INT_CONT_STAT: 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c208
-# define WPP_ANNOTATE_IsrDpc_c208 WPP_ANNOTATE_IsrDpc_c208_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c210
+# define WPP_ANNOTATE_IsrDpc_c210 WPP_ANNOTATE_IsrDpc_c210_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1199,38 +1205,122 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c208
-# define WPP_ANNOTATE_IsrDpc_c208 WPP_ANNOTATE_IsrDpc_c208_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c210
+# define WPP_ANNOTATE_IsrDpc_c210 WPP_ANNOTATE_IsrDpc_c210_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c208", \
+    "IsrDpc_c210", \
     L"{", \
-    L"reg_val, ItemLong -- 10" , \
+    L"READ_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT), ItemLong -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c208
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c210
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c228_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c214_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 25 \"%0PmcParIoEvtInterruptDisable: Interrupt 0x%10!p!, Device 0x%11!p!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
+    L" 25 \"%0PAR_CLK_CNTRL: 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_IsrDpc_c228_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_IsrDpc_c214_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"ed1371ba-d0b8-3415-7a63-f56a296eb298 PmcParIo // SRC=" _WPPW(File) \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 25 \"%0PmcParIoEvtInterruptDisable: Interrupt 0x%10!p!, Device 0x%11!p!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
+    L" 25 \"%0PAR_CLK_CNTRL: 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c228
-# define WPP_ANNOTATE_IsrDpc_c228 WPP_ANNOTATE_IsrDpc_c228_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c214
+# define WPP_ANNOTATE_IsrDpc_c214 WPP_ANNOTATE_IsrDpc_c214_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c214
+# define WPP_ANNOTATE_IsrDpc_c214 WPP_ANNOTATE_IsrDpc_c214_FINAL( \
+    "TMF:", \
+    "IsrDpc.c", \
+    "IsrDpc_c214", \
+    L"{", \
+    L"READ_REGISTER_ULONG(pDevExt->RegsBase + PAR_CLK_CNTRL), ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c214
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_IsrDpc_c218_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 26 \"%0PAR_INT_CONFIG_CNTL: 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_IsrDpc_c218_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 26 \"%0PAR_INT_CONFIG_CNTL: 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PETE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c218
+# define WPP_ANNOTATE_IsrDpc_c218 WPP_ANNOTATE_IsrDpc_c218_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c218
+# define WPP_ANNOTATE_IsrDpc_c218 WPP_ANNOTATE_IsrDpc_c218_FINAL( \
+    "TMF:", \
+    "IsrDpc.c", \
+    "IsrDpc_c218", \
+    L"{", \
+    L"READ_REGISTER_ULONG(pDevExt->RegsBase + PAR_INT_CONFIG_CNTL), ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c218
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_IsrDpc_c238_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"PmcParIo // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 27 \"%0PmcParIoEvtInterruptDisable: Interrupt 0x%10!p!, Device 0x%11!p!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_IsrDpc_c238_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"7cc9b0e9-948a-3378-c5ac-b5d2f62218f6 PmcParIo // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 27 \"%0PmcParIoEvtInterruptDisable: Interrupt 0x%10!p!, Device 0x%11!p!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INTERRUPT" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_IsrDpc_c238
+# define WPP_ANNOTATE_IsrDpc_c238 WPP_ANNOTATE_IsrDpc_c238_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -1242,16 +1332,16 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_IsrDpc_c228
-# define WPP_ANNOTATE_IsrDpc_c228 WPP_ANNOTATE_IsrDpc_c228_FINAL( \
+#else // WPP_PUBLIC_ANNOT_IsrDpc_c238
+# define WPP_ANNOTATE_IsrDpc_c238 WPP_ANNOTATE_IsrDpc_c238_FINAL( \
     "TMF:", \
     "IsrDpc.c", \
-    "IsrDpc_c228", \
+    "IsrDpc_c238", \
     L"{", \
     L"Interrupt, ItemPtr -- 10" , \
     L"Device, ItemPtr -- 11" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_IsrDpc_c228
+#endif // WPP_PUBLIC_ANNOT_IsrDpc_c238
 
 # define WPP_ANNOTATE(x) WPP_ANNOTATE_ ## x,
 
@@ -1269,8 +1359,8 @@ WPP_LOCAL_MSG_GUID(WPP_USER_MSG_GUID);
 
 #else // WPP_USER_MSG_GUID
 
-#define WPP_LOCAL_TraceGuids WPP_ed1371bad0b834157a63f56a296eb298_Traceguids
-extern const __declspec(selectany) GUID WPP_LOCAL_TraceGuids[] = { {0xed1371ba,0xd0b8,0x3415,{0x7a,0x63,0xf5,0x6a,0x29,0x6e,0xb2,0x98}}, };
+#define WPP_LOCAL_TraceGuids WPP_7cc9b0e9948a3378c5acb5d2f62218f6_Traceguids
+extern const __declspec(selectany) GUID WPP_LOCAL_TraceGuids[] = { {0x7cc9b0e9,0x948a,0x3378,{0xc5,0xac,0xb5,0xd2,0xf6,0x22,0x18,0xf6}}, };
 
 #endif // WPP_USER_MSG_GUID
 
@@ -1767,7 +1857,7 @@ WPP_RECORDER_SF_qq(
 #define WPP_INVOKE_WPP_DEBUG(MsgArgs) (void)0
 #endif // WPP_DEBUG
 
-// WPP_CALL_IsrDpc_c47
+// WPP_CALL_IsrDpc_c48
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -1776,11 +1866,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c47(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c48(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c47) 0; \
+        WPP_ANNOTATE(IsrDpc_c48) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -1796,10 +1886,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c47(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c48(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c47) \
+    WPP_ANNOTATE(IsrDpc_c48) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -1813,10 +1903,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c47(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c48(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c47) \
+    WPP_ANNOTATE(IsrDpc_c48) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -1830,7 +1920,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c62
+// WPP_CALL_IsrDpc_c63
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -1839,11 +1929,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c62(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c63(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c62) 0; \
+        WPP_ANNOTATE(IsrDpc_c63) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -1859,10 +1949,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c62(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c63(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c62) \
+    WPP_ANNOTATE(IsrDpc_c63) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -1876,10 +1966,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c62(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c63(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c62) \
+    WPP_ANNOTATE(IsrDpc_c63) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -1893,7 +1983,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c95
+// WPP_CALL_IsrDpc_c96
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -1902,11 +1992,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c95(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c96(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c95) 0; \
+        WPP_ANNOTATE(IsrDpc_c96) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -1922,10 +2012,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c95(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c96(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c95) \
+    WPP_ANNOTATE(IsrDpc_c96) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -1939,10 +2029,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c95(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c96(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c95) \
+    WPP_ANNOTATE(IsrDpc_c96) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -1956,7 +2046,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c103
+// WPP_CALL_IsrDpc_c104
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -1965,11 +2055,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c103(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c104(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c103) 0; \
+        WPP_ANNOTATE(IsrDpc_c104) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -1985,10 +2075,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c103(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c104(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c103) \
+    WPP_ANNOTATE(IsrDpc_c104) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2002,10 +2092,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c103(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c104(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c103) \
+    WPP_ANNOTATE(IsrDpc_c104) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2019,7 +2109,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c108
+// WPP_CALL_IsrDpc_c109
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2028,11 +2118,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c108(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c109(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c108) 0; \
+        WPP_ANNOTATE(IsrDpc_c109) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2048,10 +2138,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c108(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c109(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c108) \
+    WPP_ANNOTATE(IsrDpc_c109) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2065,10 +2155,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c108(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c109(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c108) \
+    WPP_ANNOTATE(IsrDpc_c109) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2082,7 +2172,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c113
+// WPP_CALL_IsrDpc_c114
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2091,11 +2181,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c113(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c114(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c113) 0; \
+        WPP_ANNOTATE(IsrDpc_c114) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2111,10 +2201,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c113(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c114(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c113) \
+    WPP_ANNOTATE(IsrDpc_c114) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2128,10 +2218,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c113(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c114(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c113) \
+    WPP_ANNOTATE(IsrDpc_c114) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2145,7 +2235,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c118
+// WPP_CALL_IsrDpc_c119
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2154,11 +2244,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c118(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c119(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c118) 0; \
+        WPP_ANNOTATE(IsrDpc_c119) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2174,10 +2264,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c118(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c119(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c118) \
+    WPP_ANNOTATE(IsrDpc_c119) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2191,10 +2281,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c118(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c119(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c118) \
+    WPP_ANNOTATE(IsrDpc_c119) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2208,7 +2298,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c127
+// WPP_CALL_IsrDpc_c128
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2217,11 +2307,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c127(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c128(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c127) 0; \
+        WPP_ANNOTATE(IsrDpc_c128) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2237,10 +2327,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c127(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c128(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c127) \
+    WPP_ANNOTATE(IsrDpc_c128) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2254,10 +2344,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c127(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c128(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c127) \
+    WPP_ANNOTATE(IsrDpc_c128) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2271,7 +2361,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c131
+// WPP_CALL_IsrDpc_c132
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2280,11 +2370,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c131(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c132(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c131) 0; \
+        WPP_ANNOTATE(IsrDpc_c132) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2300,10 +2390,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c131(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c132(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c131) \
+    WPP_ANNOTATE(IsrDpc_c132) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2317,10 +2407,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c131(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c132(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c131) \
+    WPP_ANNOTATE(IsrDpc_c132) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2334,7 +2424,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c134
+// WPP_CALL_IsrDpc_c135
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2343,11 +2433,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c134(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c135(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c134) 0; \
+        WPP_ANNOTATE(IsrDpc_c135) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2363,10 +2453,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c134(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c135(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c134) \
+    WPP_ANNOTATE(IsrDpc_c135) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2380,10 +2470,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c134(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c135(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c134) \
+    WPP_ANNOTATE(IsrDpc_c135) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2397,7 +2487,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c158
+// WPP_CALL_IsrDpc_c159
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2406,11 +2496,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c158(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c159(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c158) 0; \
+        WPP_ANNOTATE(IsrDpc_c159) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2426,10 +2516,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c158(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c159(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c158) \
+    WPP_ANNOTATE(IsrDpc_c159) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2443,10 +2533,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c158(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c159(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c158) \
+    WPP_ANNOTATE(IsrDpc_c159) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2460,7 +2550,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c171
+// WPP_CALL_IsrDpc_c172
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2469,11 +2559,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c171(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c172(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c171) 0; \
+        WPP_ANNOTATE(IsrDpc_c172) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2489,10 +2579,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c171(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c172(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c171) \
+    WPP_ANNOTATE(IsrDpc_c172) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2506,10 +2596,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c171(LEVEL, FLAGS, MSG) \
+#define WPP_CALL_IsrDpc_c172(LEVEL, FLAGS, MSG) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c171) \
+    WPP_ANNOTATE(IsrDpc_c172) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
@@ -2523,7 +2613,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c190
+// WPP_CALL_IsrDpc_c191
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2532,11 +2622,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c190(LEVEL, FLAGS, MSG, a10, a11) \
+#define WPP_CALL_IsrDpc_c191(LEVEL, FLAGS, MSG, a10, a11) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c190) 0; \
+        WPP_ANNOTATE(IsrDpc_c191) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2552,10 +2642,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c190(LEVEL, FLAGS, MSG, a10, a11) \
+#define WPP_CALL_IsrDpc_c191(LEVEL, FLAGS, MSG, a10, a11) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c190) \
+    WPP_ANNOTATE(IsrDpc_c191) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)), \
@@ -2569,10 +2659,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c190(LEVEL, FLAGS, MSG, a10, a11) \
+#define WPP_CALL_IsrDpc_c191(LEVEL, FLAGS, MSG, a10, a11) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c190) \
+    WPP_ANNOTATE(IsrDpc_c191) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)), \
@@ -2586,7 +2676,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c198
+// WPP_CALL_IsrDpc_c199
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2595,11 +2685,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c198(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c199(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c198) 0; \
+        WPP_ANNOTATE(IsrDpc_c199) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2615,10 +2705,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c198(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c199(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c198) \
+    WPP_ANNOTATE(IsrDpc_c199) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2632,10 +2722,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c198(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c199(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c198) \
+    WPP_ANNOTATE(IsrDpc_c199) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2649,7 +2739,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c208
+// WPP_CALL_IsrDpc_c210
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2658,11 +2748,11 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c208(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c210(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c208) 0; \
+        WPP_ANNOTATE(IsrDpc_c210) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2678,10 +2768,10 @@ WPP_RECORDER_SF_qq(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c208(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c210(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c208) \
+    WPP_ANNOTATE(IsrDpc_c210) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2695,10 +2785,10 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c208(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_IsrDpc_c210(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c208) \
+    WPP_ANNOTATE(IsrDpc_c210) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -2712,7 +2802,7 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_IsrDpc_c228
+// WPP_CALL_IsrDpc_c214
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -2721,11 +2811,137 @@ WPP_RECORDER_SF_qq(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c228(LEVEL, FLAGS, MSG, a10, a11) \
+#define WPP_CALL_IsrDpc_c214(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(IsrDpc_c214) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     25, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_IsrDpc_c214(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(IsrDpc_c214) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                25, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_IsrDpc_c214(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(IsrDpc_c214) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                25, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_IsrDpc_c218
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_IsrDpc_c218(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(IsrDpc_c218) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     26, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_IsrDpc_c218(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(IsrDpc_c218) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                26, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_IsrDpc_c218(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(IsrDpc_c218) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                26, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_IsrDpc_c238
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_IsrDpc_c238(LEVEL, FLAGS, MSG, a10, a11) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(IsrDpc_c228) 0; \
+        WPP_ANNOTATE(IsrDpc_c238) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -2734,23 +2950,23 @@ WPP_RECORDER_SF_qq(
                      WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
                      wppEnabled, recorderEnabled, \
                      WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
-                     25, \
+                     27, \
                      WPP_LOCAL_TraceGuids+0, a10, a11);\
         } \
     } \
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c228(LEVEL, FLAGS, MSG, a10, a11) \
+#define WPP_CALL_IsrDpc_c238(LEVEL, FLAGS, MSG, a10, a11) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c228) \
+    WPP_ANNOTATE(IsrDpc_c238) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)), \
             WPP_RECORDER_SF_qq( \
                 WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
-                25, \
+                27, \
                 WPP_LOCAL_TraceGuids+0, a10, a11), \
             1 \
         :   0 \
@@ -2758,16 +2974,16 @@ WPP_RECORDER_SF_qq(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_IsrDpc_c228(LEVEL, FLAGS, MSG, a10, a11) \
+#define WPP_CALL_IsrDpc_c238(LEVEL, FLAGS, MSG, a10, a11) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(IsrDpc_c228) \
+    WPP_ANNOTATE(IsrDpc_c238) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)), \
             WPP_SF_qq( \
                 WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
-                25, \
+                27, \
                 WPP_LOCAL_TraceGuids+0, a10, a11), \
             1 \
         :   0 \

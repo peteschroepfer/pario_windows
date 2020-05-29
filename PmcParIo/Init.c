@@ -98,7 +98,6 @@ NTSTATUS PmcParIoPrepareHardware(__in PDEVICE_EXTENSION pDevExt,
     CHAR* bar;
     BOOLEAN                          foundRegs = FALSE;
     BOOLEAN                          foundPLXRegs = FALSE;
-    //BOOLEAN                          foundtRegs = FALSE;
     PHYSICAL_ADDRESS                 regsBasePA = { 0 };
     ULONG                            regsLength = 0;    
     PHYSICAL_ADDRESS                 PlxRegsBasePA = { 0 };
@@ -109,7 +108,6 @@ NTSTATUS PmcParIoPrepareHardware(__in PDEVICE_EXTENSION pDevExt,
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "--> PmcParIoPrepareHardware");
     // Parse the resource list and save the resource information.
     for (i = 0; i < WdfCmResourceListGetCount(ResourcesTranslated); i++) {
-        TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "Resource Translated item number: %d\n",i);
         desc = WdfCmResourceListGetDescriptor(ResourcesTranslated, i);
         if (!desc) {
             TraceEvents(TRACE_LEVEL_ERROR, DBG_PNP,
@@ -132,14 +130,12 @@ NTSTATUS PmcParIoPrepareHardware(__in PDEVICE_EXTENSION pDevExt,
 
             }
             
-
-
             if (!foundRegs && desc->u.Memory.Length == PMC_PAR_IO_LOCAL_ADDRESS_SPACE) {
                 regsBasePA = desc->u.Memory.Start;
                 regsLength = desc->u.Memory.Length;
                 foundRegs = TRUE;
-                TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "Bar 1: len: %d\n", regsLength);
-                bar = "BAR1";
+                TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "Bar 2: len: %d\n", regsLength);
+                bar = "BAR2";
             }
 
             break;
@@ -180,6 +176,8 @@ NTSTATUS PmcParIoPrepareHardware(__in PDEVICE_EXTENSION pDevExt,
             "PmcParIoPrepareHardware: Missing resources");
         return STATUS_DEVICE_CONFIGURATION_ERROR;
     }
+    
+
     // Map in the Registers Memory resource: BAR1
     pDevExt->RegsBase = (PULONG)MmMapIoSpace(regsBasePA,
         regsLength, MmNonCached);
@@ -189,6 +187,7 @@ NTSTATUS PmcParIoPrepareHardware(__in PDEVICE_EXTENSION pDevExt,
             regsBasePA.QuadPart, regsLength);
         return STATUS_INSUFFICIENT_RESOURCES;
     }
+
     pDevExt->RegsLength = regsLength;
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP,
         " - Registers %p, length %d",
@@ -199,7 +198,8 @@ NTSTATUS PmcParIoPrepareHardware(__in PDEVICE_EXTENSION pDevExt,
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP,
         " - Registers %p, length %d",
         pDevExt->RegsBase + PAR_IO_DATA_OUT_0, pDevExt->RegsLength);
-    
+   
+
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "<-- PmcParIoPrepareHardware");
     return STATUS_SUCCESS;
 }// PmcParIoPrepareHardware
@@ -216,48 +216,51 @@ Return Value:
 NTSTATUS PmcParIoInitializeHardware(__in PDEVICE_EXTENSION pDevExt)
 {
 
-    ULONG       plx_config;
+    //ULONG               plx_config;
+
+
 
     PAGED_CODE();
 
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_INIT,
         "--> PmcParIoInitializeHardware");
-    // Initialize data members
-    pDevExt->pEventObject = NULL;
-    pDevExt->FileHandle = _INVALID_FILE_HANDLE;
-    pDevExt->PlxIntContStat.val32 = 0;
-    pDevExt->DataOutConfig0 = 0xffffffff;
-    pDevExt->DataOutConfig1 = 0xffffffff;
-    pDevExt->ClockCntrl.val32 = CLKEN_INTRN_ON;
-    pDevExt->IntConfig.val32 = 0x0;
 
-    // Set up the PLX local address space.
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_LOC_ADDR_SPACE_0, PLX_LOC_ADDR_EN);
+    //configure PLX
 
-    plx_config = PLX_LOC_RDY_EN | PLX_LOC_PF_CNTEN | PLX_LOC_MODE_32;
+    ULONG plx_config = PLX_LOC_RDY_EN | PLX_LOC_PF_CNTEN | PLX_LOC_MODE_32;
     plx_config |= 3 << PLX_LOC_XA_WT_SHFT & PLX_LOC_XA_WT_MSK;
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_LOC_ADD_SPACE_BRD_0, plx_config);
+    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_INIT,
+        "--> Original LocAddSpaceBRD0: %x", plx_config);
+
+    plx_config = PLX_RETRY_DLY_CNT << PLX_CNTRL_RTRYDL_SHFT & PLX_CNTRL_RTRYDL_MASK;
+    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_INIT,
+        "--> Original Config: %x", plx_config);
 
     plx_config = PLX_CS_ENABLE | PLX_CS_SIZE_256;
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_CHIP_SEL_BASE_0, plx_config);
+    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_INIT,
+        "--> Original BASE: %x", plx_config);
 
-    // Disable Plx interrupts
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT, pDevExt->PlxIntContStat.val32);
+    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_LOC_ADDR_SPACE_BA_0, 0x00000001);
+    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_LOC_ADD_SPACE_BRD_0, 0x00800022);
+    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_CHIP_SEL_BASE_0, 0x00000201);
+    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT, 0x0);
+    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_CONTROL, 0x0200904);
 
-    // Configure local bus access behavior
-    plx_config = PLX_RETRY_DLY_CNT << PLX_CNTRL_RTRYDL_SHFT & PLX_CNTRL_RTRYDL_MASK;
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_CONTROL, plx_config);
+    //configure Xilinx
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_IO_DATA_OUT_0, 0xFFFFFFFF);
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_IO_DATA_OUT_1, 0xFFFFFFFF);
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_CLK_CNTRL, 0x00000004);
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_INT_CONFIG_CNTL, 0x00000004);
 
-    // Set all output data bits high
-    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_IO_DATA_OUT_0, pDevExt->DataOutConfig0);
-    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_IO_DATA_OUT_1, pDevExt->DataOutConfig1);
+    //Interrupts currently disabled
+    
+    //store bit values
+    pDevExt->PlxIntContStat.val32 = READ_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT);
+    pDevExt->ClockCntrl.val32 = READ_REGISTER_ULONG(pDevExt->RegsBase + PAR_CLK_CNTRL);
+    pDevExt->IntConfig.val32 = READ_REGISTER_ULONG(pDevExt->RegsBase + PAR_INT_CONFIG_CNTL);
 
-    // Set clock to 8.25 MHz internal
-    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_CLK_CNTRL, pDevExt->ClockCntrl.val32);
-
-    // Disable PmcPario interrupts
-    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_INT_CONFIG_CNTL, pDevExt->IntConfig.val32);
-
+    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_INIT,
+        "<-- PAR_ID: 0x%x",READ_REGISTER_ULONG(pDevExt->RegsBase + PAR_ID));
 
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_INIT,
         "<-- PmcParIoInitializeHardware");
@@ -307,3 +310,4 @@ VOID PmcParIoHardwareReset(__in PDEVICE_EXTENSION pDevExt)
     KeDelayExecutionThread(KernelMode, TRUE, &delay);
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, "<-- PmcParIoIssueFullReset");
 }// PmcParIoHardwareReset
+

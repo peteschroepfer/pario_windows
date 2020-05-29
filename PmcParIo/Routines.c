@@ -448,14 +448,11 @@ NTSTATUS EnableInterrupt(__in PDEVICE_EXTENSION pDevExt)
 
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_IOCTLS, "--> EnableInterrupt");
 
-    // Write configuration register
-    pDevExt->PlxIntContStat.bits.LocIntEn1 = TRUE;
-    pDevExt->PlxIntContStat.bits.LocIntEn2 = TRUE;
-    pDevExt->PlxIntContStat.bits.PciIntEn = TRUE;
+    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT, 0x49);
 
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT, pDevExt->PlxIntContStat.val32);
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_CLK_CNTRL, 0x6);
 
-    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, " - Registers %p", pDevExt->PlxRegsBase + PLX_INT_CONT_STAT);
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_INT_CONFIG_CNTL, 0x44);
 
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_IOCTLS, "<-- EnableInterrupt");
 
@@ -476,15 +473,9 @@ NTSTATUS DisableInterrupt(__in PDEVICE_EXTENSION pDevExt)
 {
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_IOCTLS, "--> DisableInterrupt");
 
-    // Disable interrupt
+    // Disable interrupts
 
-    pDevExt->PlxIntContStat.bits.LocIntEn1 = FALSE;
-    pDevExt->PlxIntContStat.bits.LocIntEn2 = FALSE;
-    pDevExt->PlxIntContStat.bits.PciIntEn = FALSE;
-
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT, pDevExt->PlxIntContStat.val32);
-
-    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, " - Registers %p", pDevExt->PlxRegsBase + PLX_INT_CONT_STAT);
+    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT, 0x00);
 
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_IOCTLS, "<-- DisableInterrupt");
 
@@ -503,15 +494,13 @@ Return Value:
 --*/
 NTSTATUS ForceInterrupt(__in PDEVICE_EXTENSION pDevExt)
 {
-    INT_PLX_REG    PlxIntConfig;
 
-    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_IOCTLS, "--> ForceInterrupt");
+    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_IOCTLS, "--> PLS Software ForceInterrupt");
 
-    PlxIntConfig.val32 = pDevExt->PlxIntContStat.val32;
-    PlxIntConfig.bits.ForceInt = TRUE;
-    WRITE_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT, PlxIntConfig.val32);
+    WRITE_REGISTER_ULONG(pDevExt->RegsBase + PAR_IO_DATA_OUT_0, 0xFFFF);
 
-    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_PNP, " - Registers %p", pDevExt->PlxRegsBase + PLX_INT_CONT_STAT);
+
+    TraceEvents(TRACE_LEVEL_INFORMATION, DBG_IOCTLS, "INTCSR After Force Interrupt: 0x%x",READ_REGISTER_ULONG(pDevExt->PlxRegsBase + PLX_INT_CONT_STAT));
 
     TraceEvents(TRACE_LEVEL_INFORMATION, DBG_IOCTLS, "<-- ForceInterrupt");
 
